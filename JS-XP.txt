@@ -1,0 +1,6 @@
+JS 
+Tudo é objeto que vai ter métodos 
+
+JSON uma forma de representar dado, todo JASON é um objeto do JS válido - É um formato de dados muito usado.
+
+API - Aplication Programming Interface 
