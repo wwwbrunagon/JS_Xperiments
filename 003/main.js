@@ -15,7 +15,7 @@ const acessaContainer = document.getElementById("container")
 acessaClasse.forEach(elemento=>{
 	//elemento é um argumento de forEach
 
-	elemento.style.height = "10px"
+	elemento.style.height = "5px"
 	//elemento.style.backgroundColor= randomColors();
 	
 	
