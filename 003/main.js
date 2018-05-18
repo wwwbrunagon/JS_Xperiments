@@ -1,5 +1,6 @@
-//The toString() method returns a string representing the object.
+
 //[16 = base Hexadecimal]
+//The toString() method returns a string representing the object.
 function randomColors() {
   return '#' + Math.floor(Math.random() * 16777215).toString(16);
  }
