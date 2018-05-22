@@ -12,9 +12,9 @@ const acessaClasse = document.querySelectorAll(".progress")
 const acessaContainer = document.getElementById("container")
  
 //forEach método que pode receber outra função callback
-acessaClasse.forEach(elemento=>{
+// acessaClasse.forEach(elemento=>{
 	//elemento é um argumento de forEach
-
+for (const elemento of acessaClasse) {
 	elemento.style.height = "5px"
 	//elemento.style.backgroundColor= randomColors();
 	
@@ -29,7 +29,7 @@ acessaClasse.forEach(elemento=>{
 		elemento.style.backgroundColor = randomColors()
 	}, 500)
 
-})
+}
 
 
 
